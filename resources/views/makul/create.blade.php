@@ -8,7 +8,7 @@
                 <div class="card-header">Tambah Makul</div>
 
                 <div class="card-body">
-                   <form action="{{ route('simpan.data')}}" method="post">
+                   <form action="{{route('simpan.makul')}}" method="post">
                    @csrf
                    <div class="form-group">
                    <div class="form-row">
